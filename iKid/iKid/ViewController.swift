@@ -10,6 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var homeButton: UITabBarItem!
+    @IBOutlet weak var marvelJokes: UITabBarItem!
+    @IBOutlet weak var computerJokes: UITabBarItem!
+    @IBOutlet weak var knockknockJokes: UITabBarItem!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

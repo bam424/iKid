@@ -14,6 +14,7 @@
 		9DAB27B71EB11D20006EED35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DAB27B51EB11D20006EED35 /* LaunchScreen.storyboard */; };
 		9DAB27C21EB11D20006EED35 /* iKidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAB27C11EB11D20006EED35 /* iKidTests.swift */; };
 		9DAB27CD1EB11D20006EED35 /* iKidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAB27CC1EB11D20006EED35 /* iKidUITests.swift */; };
+		9DADF6F21EB14ADC002D964F /* Marvel-comics-logo-vector.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DADF6F11EB14ADC002D964F /* Marvel-comics-logo-vector.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9DAB27C81EB11D20006EED35 /* iKidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iKidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DAB27CC1EB11D20006EED35 /* iKidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iKidUITests.swift; sourceTree = "<group>"; };
 		9DAB27CE1EB11D20006EED35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DADF6F11EB14ADC002D964F /* Marvel-comics-logo-vector.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Marvel-comics-logo-vector.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				9DAB27AC1EB11D20006EED35 /* AppDelegate.swift */,
 				9DAB27AE1EB11D20006EED35 /* ViewController.swift */,
 				9DAB27B01EB11D20006EED35 /* Main.storyboard */,
+				9DADF6F11EB14ADC002D964F /* Marvel-comics-logo-vector.png */,
 				9DAB27B31EB11D20006EED35 /* Assets.xcassets */,
 				9DAB27B51EB11D20006EED35 /* LaunchScreen.storyboard */,
 				9DAB27B81EB11D20006EED35 /* Info.plist */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DADF6F21EB14ADC002D964F /* Marvel-comics-logo-vector.png in Resources */,
 				9DAB27B71EB11D20006EED35 /* LaunchScreen.storyboard in Resources */,
 				9DAB27B41EB11D20006EED35 /* Assets.xcassets in Resources */,
 				9DAB27B21EB11D20006EED35 /* Main.storyboard in Resources */,
@@ -507,6 +511,7 @@
 				9DAB27D31EB11D20006EED35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9DAB27D41EB11D20006EED35 /* Build configuration list for PBXNativeTarget "iKidTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +520,7 @@
 				9DAB27D61EB11D20006EED35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9DAB27D71EB11D20006EED35 /* Build configuration list for PBXNativeTarget "iKidUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +529,7 @@
 				9DAB27D91EB11D20006EED35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
