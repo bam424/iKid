@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="DsI-DP-Goc">
+    <device id="retina4_7" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -18,43 +18,165 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to iKid! Pick a tab to read a funny joke" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="woO-yE-BQz">
-                                <rect key="frame" x="6" y="270" width="363" height="126"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Why didn’t Wade Wilson go swimming?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="woO-yE-BQz">
+                                <rect key="frame" x="183.5" y="177.5" width="300.5" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bJx-1m-NVW">
-                                <rect key="frame" x="0.0" y="618" width="375" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <items>
-                                    <tabBarItem title="Home" id="4eS-Rs-9lr"/>
-                                    <tabBarItem title="Marvel Jokes" image="Marvel-comics-logo-vector.png" selectedImage="Marvel-comics-logo-vector.png" id="Q2P-rE-ojM"/>
-                                    <tabBarItem title="Computer Jokes" id="Xnl-Ow-tAd"/>
-                                    <tabBarItem title="Knock Knock Jokes" id="SlB-0b-qlO"/>
-                                </items>
-                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="woO-yE-BQz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="15z-on-NsA"/>
+                            <constraint firstItem="woO-yE-BQz" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="bJ8-yz-Ib4"/>
+                        </constraints>
                     </view>
-                    <connections>
-                        <outlet property="computerJokes" destination="Xnl-Ow-tAd" id="cLu-Qq-d6N"/>
-                        <outlet property="homeButton" destination="4eS-Rs-9lr" id="E44-B0-Umf"/>
-                        <outlet property="knockknockJokes" destination="SlB-0b-qlO" id="wZC-16-6i0"/>
-                        <outlet property="marvelJokes" destination="Q2P-rE-ojM" id="D09-u6-7a4"/>
-                    </connections>
+                    <navigationItem key="navigationItem" id="Y4j-zu-xJd"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1780" y="123.68815592203899"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="yKC-Oj-uot">
+            <objects>
+                <viewController id="OlU-sv-QlJ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ovT-51-lOj"/>
+                        <viewControllerLayoutGuide type="bottom" id="ri7-28-kZy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="htb-pq-mT4">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Why is Ted such a comic book nerd??" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Drv-1M-Jak">
+                                <rect key="frame" x="189.5" y="177" width="288" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Drv-1M-Jak" firstAttribute="centerY" secondItem="htb-pq-mT4" secondAttribute="centerY" id="BI8-a6-Idf"/>
+                            <constraint firstItem="Drv-1M-Jak" firstAttribute="centerX" secondItem="htb-pq-mT4" secondAttribute="centerX" id="Qhf-Zy-ExH"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="J3u-zK-8Bh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wZE-M6-cMR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1780" y="864"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="AkS-Bk-vC3">
+            <objects>
+                <viewController id="YGL-tW-sRl" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VnB-nD-C9l"/>
+                        <viewControllerLayoutGuide type="bottom" id="Dlv-bg-jnB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8QU-Ce-Rgw">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yesterday, I changed the name of my WiFi to &quot;Hack if you can&quot;&quot;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pkr-z3-6OE">
+                                <rect key="frame" x="92.5" y="177" width="482" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Pkr-z3-6OE" firstAttribute="centerX" secondItem="8QU-Ce-Rgw" secondAttribute="centerX" id="Lym-nB-Vyx"/>
+                            <constraint firstItem="Pkr-z3-6OE" firstAttribute="centerY" secondItem="8QU-Ce-Rgw" secondAttribute="centerY" id="VMC-Ks-mqn"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="6R1-5E-EHf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qhW-c6-3N2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1780" y="1593"/>
+        </scene>
+        <!--Marvel Joke-->
+        <scene sceneID="fd7-fn-bCS">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="RV1-eV-VEC" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Marvel Joke" id="PtS-vV-Mud"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="VzX-aD-6FF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="58t-GO-wvK"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OyC-aI-UXf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="840.79999999999995" y="123.68815592203899"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="CPn-cR-QEr">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="DsI-DP-Goc" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="XHT-Oz-3Ds">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="RV1-eV-VEC" kind="relationship" relationship="viewControllers" id="kzT-Vt-ucx"/>
+                        <segue destination="z46-gV-ogk" kind="relationship" relationship="viewControllers" id="v8P-k5-TQT"/>
+                        <segue destination="bbA-JB-sNC" kind="relationship" relationship="viewControllers" id="ei0-yD-X1l"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HF5-7F-MjM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
             <point key="canvasLocation" x="-98.400000000000006" y="123.68815592203899"/>
         </scene>
+        <!--Ted Joke-->
+        <scene sceneID="VKV-uP-9dd">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="z46-gV-ogk" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Ted Joke" id="NHN-CU-ZoZ"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="nJ2-jr-Eem">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="OlU-sv-QlJ" kind="relationship" relationship="rootViewController" id="tVn-bb-e1F"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iLM-1U-Ftm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="841" y="850"/>
+        </scene>
+        <!--Computer Joke-->
+        <scene sceneID="pQ4-Wr-Gor">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bbA-JB-sNC" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Computer Joke" id="ch7-Zu-jMg"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="D9c-Sf-iRE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="YGL-tW-sRl" kind="relationship" relationship="rootViewController" id="QY0-0q-YQD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o7x-Sr-5gY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="841" y="1593"/>
+        </scene>
     </scenes>
-    <resources>
-        <image name="Marvel-comics-logo-vector.png" width="44" height="32"/>
-    </resources>
 </document>
