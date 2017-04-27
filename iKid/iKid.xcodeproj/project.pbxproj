@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9D3C0BB91EB2B003007BB93F /* MarvelJokeControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3C0BB81EB2B003007BB93F /* MarvelJokeControllerViewController.swift */; };
+		9D9903AF1EB2B7A5001BA800 /* TedJokeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9903AE1EB2B7A5001BA800 /* TedJokeController.swift */; };
 		9DAB27AD1EB11D20006EED35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAB27AC1EB11D20006EED35 /* AppDelegate.swift */; };
 		9DAB27AF1EB11D20006EED35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAB27AE1EB11D20006EED35 /* ViewController.swift */; };
 		9DAB27B21EB11D20006EED35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DAB27B01EB11D20006EED35 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		9D3C0BB81EB2B003007BB93F /* MarvelJokeControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarvelJokeControllerViewController.swift; sourceTree = "<group>"; };
+		9D9903AE1EB2B7A5001BA800 /* TedJokeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TedJokeController.swift; path = ../TedJokeController.swift; sourceTree = "<group>"; };
 		9DAB27A91EB11D20006EED35 /* iKid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iKid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DAB27AC1EB11D20006EED35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DAB27AE1EB11D20006EED35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				9DAB27AC1EB11D20006EED35 /* AppDelegate.swift */,
 				9DAB27AE1EB11D20006EED35 /* ViewController.swift */,
 				9D3C0BB81EB2B003007BB93F /* MarvelJokeControllerViewController.swift */,
+				9D9903AE1EB2B7A5001BA800 /* TedJokeController.swift */,
 				9DAB27B01EB11D20006EED35 /* Main.storyboard */,
 				9DADF6F11EB14ADC002D964F /* Marvel-comics-logo-vector.png */,
 				9DAB27B31EB11D20006EED35 /* Assets.xcassets */,
@@ -266,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D9903AF1EB2B7A5001BA800 /* TedJokeController.swift in Sources */,
 				9D3C0BB91EB2B003007BB93F /* MarvelJokeControllerViewController.swift in Sources */,
 				9DAB27AF1EB11D20006EED35 /* ViewController.swift in Sources */,
 				9DAB27AD1EB11D20006EED35 /* AppDelegate.swift in Sources */,

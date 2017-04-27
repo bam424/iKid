@@ -1,5 +1,5 @@
 //
-//  MarvelJokeControllerViewController.swift
+//  TedJokeController.swift
 //  iKid
 //
 //  Created by iGuest on 4/27/17.
@@ -8,11 +8,8 @@
 
 import UIKit
 
-class MarvelJokeControllerViewController: UIViewController {
+class TedJokeController: UIViewController {
 
-    @IBOutlet weak var joke: UILabel!
-    @IBAction func answerButton(_ sender: UIButton) {
-    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
